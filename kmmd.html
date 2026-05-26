@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+      background-image:url("images/family.jpg");
+  
+      background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+   z-index: -1;   /* send behind content */
+
+    animation: animateBg 5s linear infinite;
+
+    }
+    @keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+     
+
+        .base{
+            color: blue;
+            text-align: center;
+        }
+
+        .main{
+            color: cornflowerblue;
+        }
+
+        .in{
+            color: green;
+        }
+
+        ol{
+            background-color: #f0f8ff;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        ul{
+            background-color: #e6ffe6;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="base">LIST TAG</h1>
+<br>
+<br>
+<h2 style="color: blue;">MY FAMILY </h2>
+<br>
+<br>
+    <h2 class="main">Ordered List</h2>
+    <ol type="A">   
+        <li>Mohan</li>
+        <li>Divya</li>
+        <li>Kumar</li>
+        <li>Mageshwari</li>
+    </ol>
+
+    <h2 class="in">Unordered List</h2>
+    <ul type="square">   
+        <li>Mohan</li>
+        <li>Divya</li>
+        <li>Kumar</li>
+        <li>Mageshwari</li>
+    </ul>
+
+</body>
+</html>
